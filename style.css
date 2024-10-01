@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #b8dbbc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.filters {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  margin: 0.5rem;
+}
+
+.filter-group h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 0.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.filter-button:hover {
+  background-color: #d81b60;
+}
+
+
+
+.product {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product h2 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.product .price {
+  font-size: 1.2rem;
+  color: #e91e63;
+  margin: 0.5rem 0;
+}
+
+.product .code {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.product button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+
+.filter-button.selected {
+  background-color: #e66892; /* Cambia este color a lo que prefieras */
+  color: white;
+}
