@@ -35,6 +35,7 @@ h1 {
 }
 
 .filter-button {
+
   background-color: #e91e63;
   border: none;
   color: white;
@@ -59,10 +60,21 @@ h1 {
   text-align: center;
   padding: 1rem;
 }
+.product .content{
+  height: 280px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around; /* Aligns items in the center */
+}
+.product .contentName{
+  height: 68px;
+}
+
 
 .product img {
   max-width: 100%;
   border-radius: 8px;
+  height: 250px;
 }
 
 .product h2 {
@@ -72,7 +84,7 @@ h1 {
 
 .product p {
   font-size: 1rem;
-  color: #666;
+  color: #6666;
 }
 
 .product .price {
@@ -84,6 +96,7 @@ h1 {
 .product .code {
   font-size: 0.9rem;
   color: #333;
+
 }
 
 .product button {
@@ -92,6 +105,7 @@ h1 {
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 4px;
+  margin-top: auto; /* Empuja el botón al fondo de la tarjeta */
   cursor: pointer;
   font-size: 1rem;
 }
